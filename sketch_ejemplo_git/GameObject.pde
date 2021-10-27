@@ -1,7 +1,7 @@
 abstract class GameObject{
   protected PVector posicion;
   protected PVector velocidad;
-  
+  /** Permite visualizar el objeto*/
   public abstract void display();
   
   public void setPosicion(PVector posicion){
